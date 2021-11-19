@@ -1,0 +1,18 @@
+# Super level user permission
+sudo: required
+
+# Specific the language you are using
+language: generic
+
+# We need the docker cli pre installed'
+services:
+    - docker
+
+# before_install are the command we want to execute before our test are ran
+before_install:
+    - docker build -t arigbedeomobolaji/docker_react -f Dockerfile.dev .
+
+# the script section contains all the commands that need to be executed to actually run our test suite.
+
+script:
+    - docker run -e CI=true arigbedeomobolaji/docker_react npm run test
