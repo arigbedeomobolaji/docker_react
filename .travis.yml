@@ -25,7 +25,7 @@ deploy:
     # Name of our elastic beanstalk application
     app: 'docker-react'
     # Name of created elastic beanstalk environment
-    env: 'dockerreact-env-1'
+    env: 'Dockerreact-env-1'
     # Name of Bucket where our code resides
     bucket_name: 'elasticbeanstalk-eu-west-2-386341442621'
     # name of the specific elastic beanstalk pplication
