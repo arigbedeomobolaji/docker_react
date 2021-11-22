@@ -17,7 +17,7 @@ function App() {
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					Learn React
+					I was changed on the feature branch
 				</a>
 				<p>Lorem Ipsum Ilsum</p>
 				<p>Sola</p>
