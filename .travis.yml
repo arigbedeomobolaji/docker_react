@@ -23,13 +23,13 @@ deploy:
     # Region it is serving from
     region: 'eu-west-2'
     # Name of our elastic beanstalk application
-    app: 'Docker-react'
+    app: 'docker-react'
     # Name of created elastic beanstalk environment
-    env: 'Dockerreact-env'
+    env: 'dockerreact-env-1'
     # Name of Bucket where our code resides
     bucket_name: 'elasticbeanstalk-eu-west-2-386341442621'
     # name of the specific elastic beanstalk pplication
-    bucket_path: 'Docker-react'
+    bucket_path: 'docker-react'
     # When we want to deploy actions to perform below means only deploy when a code is pushed to the main account.
     on:
         branch: master
