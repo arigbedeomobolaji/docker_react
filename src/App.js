@@ -17,7 +17,7 @@ function App() {
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					Learn React
+					There was a slight change
 				</a>
 				<p>Lorem Ipsum Ilsum</p>
 				<p>Sola</p>
